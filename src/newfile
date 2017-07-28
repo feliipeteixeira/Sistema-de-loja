@@ -1,0 +1,6 @@
+    private final String insert ="insert into dbo.fornecedor"
+            + " (razaoSocial,nomeFantasia,cnpjCpf,"
+            + "DataCriacao,dataAlteracao,endereco,obs,"
+            + "completo,bairro,cep,representante,cargo,"
+            + "tel01,tel02,what01,what02,email)"
+            + "values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
